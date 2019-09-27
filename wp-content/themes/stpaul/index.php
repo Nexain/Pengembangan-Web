@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?> /style.css">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css">
     <title>Document</title>
 </head>
 
@@ -17,32 +17,32 @@
                 <a class="blog-nav-item first" href="#">
                     <div class="trans"></div>
                     <span class="class_description"> Calendar </span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/calendar.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/calendar.png" class="image_menu">
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">Departments</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/museum.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/museum.png" class="image_menu">
                     <!-- Departments -->
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">Maps</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/marker.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/marker.png" class="image_menu">
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">News Room</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/video_call.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/video_call.png" class="image_menu">
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">Open Information</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/graph_report.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/graph_report.png" class="image_menu">
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">Connect</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/thumb_like.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/thumb_like.png" class="image_menu">
                 </a>
                 <a class="blog-nav-item" href="#">
                     <span class="class_description">Jobs</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/user.png" class="image_menu">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/user.png" class="image_menu">
                 </a>
             </nav>
         </div>
@@ -52,7 +52,7 @@
         <ul class="nav">
             <li class="col-lg-5">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/saint-paul.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/saint-paul.png">
                 </a>
                 <!-- <a class="nav-link active" href="#">Active</a> -->
             </li>
@@ -104,7 +104,7 @@
     </nav>
 
     <div class="bungkus">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/0.png" alt="000">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/0.png" alt="000">
         <form action="">
             <input type="text" class="form-control-lg" placeholder="Search" style="text-align: center">
         </form>
@@ -231,14 +231,14 @@
         <div class="whatsHappening row text-white">
             <div class="col-md-4">
                 <div class="card rounded-0 cardBlue">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/1.png" class="card-img-top" alt="1111">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/1.png" class="card-img-top" alt="1111">
                     <div class="card-body">
                         <h5 class="card-title">Citywide Drop-Off Events in September</h5>
                         <p class="card-text">Recycle electronics, bulky items and more at upcoming drop-off events on Sept. 14 & 28. Open to all Saint Paul residents!</p>
                     </div>
                 </div>
                 <div class="card rounded-0 cardGrey">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/4.png" class="card-img-top" alt="4444">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/4.png" class="card-img-top" alt="4444">
                     <div class="card-body">
                         <h5 class="card-title">Fall Gathering & Halloween Events</h5>
                         <p class="card-text">Gather together with friends and neighbors to celebrate the season at Saint Paul fall festivals, community bonfires, and Halloween events.</p>
@@ -247,14 +247,14 @@
             </div>
             <div class="col-md-4">
                 <div class="card rounded-0 cardGrey">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/2.png" class="card-img-top" alt="222">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/2.png" class="card-img-top" alt="222">
                     <div class="card-body">
                         <h5 class="card-title">Fall Activity Registration</h5>
                         <p class="card-text">Register for fall activities online, in person, or over the phone starting Monday, August 5.</p>
                     </div>
                 </div>
                 <div class="card rounded-0 cardGreen">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/5.png" class="card-img-top" alt="5555">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/5.png" class="card-img-top" alt="5555">
                     <div class="card-body">
                         <h5 class="card-title">Youth Basketball Registration</h5>
                         <p class="card-text">Youth basketball registration runs September 1-30. Save 10-25% when you register Sept. 1-5!</p>
@@ -263,14 +263,14 @@
             </div>
             <div class="col-md-4">
                 <div class="card rounded-0 cardGreen">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/3.png" class="card-img-top" alt="333">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/3.png" class="card-img-top" alt="333">
                     <div class="card-body">
                         <h5 class="card-title">Update on Citywide Garbage 8/23/19</h5>
                         <p class="card-text">Garbage collection will continue uninterrupted in the City of Saint Paul. Residents will vote on Ordinance 18-23 on the November 5, 2019 general election ballot.</p>
                     </div>
                 </div>
                 <div class="card rounded-0 cardBlue">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/6.png" class="card-img-top" alt="666">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/images/6.png" class="card-img-top" alt="666">
                     <div class="card-body">
                         <h5 class="card-title">National Public Lands Day</h5>
                         <p class="card-text">Celebrate National Public Lands Day on September 28 at Hidden Falls. Try fishing, climbing, archery, canoeing and more!</p>
@@ -283,11 +283,11 @@
     <footer>
         <div class="grid-column">
             <div class="column">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/stpaul.PNG" id="logo" />
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/stpaul.PNG" id="logo" />
             </div>
             <div class="column" id="information">
                 <p>15 Kellogg Blvd. West | Saint Paul, MN 55102 | General Information: 651-266-8989</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/border.PNG" style="width:50vw;max-width: 100%; height:auto;" />
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/border.PNG" style="width:50vw;max-width: 100%; height:auto;" />
                 <ul id="links">
                     <li><a href="http://google.com">Home</a></li>
                     <li>&ensp;|&ensp;</li>
@@ -302,9 +302,9 @@
             </div>
             <div class="column">
                 <ul id="social">
-                    <li><a href="http://facebook.com"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"></a></li>
-                    <li><a href="http://youtube.com"><img src="<?php echo get_template_directory_uri(); ?>/images/youtube.png"></a></li>
-                    <li><a href="http://twitter.com"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png"></a></li>
+                    <li><a href="http://facebook.com"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/facebook.png"></a></li>
+                    <li><a href="http://youtube.com"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/youtube.png"></a></li>
+                    <li><a href="http://twitter.com"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/twitter.png"></a></li>
                 </ul>
             </div>
         </div>
