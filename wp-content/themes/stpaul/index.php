@@ -283,11 +283,11 @@
     <footer>
         <div class="grid-column">
             <div class="column">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/stpaul.PNG" id="logo" />
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/stpaul.png" id="logo" />
             </div>
             <div class="column" id="information">
                 <p>15 Kellogg Blvd. West | Saint Paul, MN 55102 | General Information: 651-266-8989</p>
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/border.PNG" style="width:50vw;max-width: 100%; height:auto;" />
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/images/border.png" style="width:50vw;max-width: 100%; height:auto;" />
                 <ul id="links">
                     <li><a href="http://google.com">Home</a></li>
                     <li>&ensp;|&ensp;</li>
